@@ -1,0 +1,8 @@
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+tfplan
+crash.log
+.DS_Store
+# NOT ignored on purpose: .terraform.lock.hcl (commit it)

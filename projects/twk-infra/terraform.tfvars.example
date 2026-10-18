@@ -1,0 +1,5 @@
+# terraform.tfvars  (git-ignored: these are yours)
+enterprise_project_id = "<id from Enterprise > Project Management>"   # delete the line if you have none
+ssh_cidr              = "<your public IP>/32"                         # curl -s ifconfig.me
+ssh_public_key        = "ssh-rsa AAAA... you@your-machine"
+obs_bucket_name       = "<something-globally-unique>"
